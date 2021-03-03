@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider as ReduxProvider } from 'react-redux';
 import { ConnectedRouter as ConnectedRouterProvider } from 'connected-react-router';
-import { Root } from 'components';
+import { Root } from './components';
+import { history } from './routes/history';
 
 const root = document.getElementById('root');
 
