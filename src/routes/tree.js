@@ -14,6 +14,6 @@ const routes = {
 	},
 };
 
-const __ROOT_ROUTE__ = routes.home.link();
+const __ROOT_ROUTE__ = routes.movies.link();
 
 export { routes, __ROOT_ROUTE__ };
