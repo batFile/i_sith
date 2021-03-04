@@ -1,1 +1,1 @@
-export {}
+export { moviesWatcher as app } from './app';
