@@ -1,0 +1,12 @@
+.header {
+    $this: &;
+
+    position: relative;
+	display: block;
+	min-height: 80px;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+
+	background-color: rgba(0,0,0,1);
+}

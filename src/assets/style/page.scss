@@ -1,0 +1,13 @@
+.page {
+    $this: &;
+
+    position: relative;
+    height: calc(100vh - 140px);
+
+    & > ul {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

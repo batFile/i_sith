@@ -1,11 +1,11 @@
 import React from 'react';
-import { Emblem } from '../emblem';
 import './style.scss';
+import img from '../../../assets/img/emblem.png';
 
 const View = React.memo(() => {
 	return (
-        <div className={"header"}>
-			<Emblem/>
+        <div>
+			<img className={'emblem'} src={img} alt="Emblem"/>
 		</div>
 	);
 });
